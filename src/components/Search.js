@@ -15,8 +15,7 @@ useEffect(() => {
             format: 'json',
             origin: '*',
             srsearch: 'programming'
-        },
-            
+        }, 
        });
        console.log("data",data);
        setresult(data.data.query.search)
